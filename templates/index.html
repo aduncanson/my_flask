@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+{% block main %}
+    <h3>Hello, below is a list of existing users:</h3>
+    {% for user in users %}
+        <li>{{user}}</li>
+    {% endfor %}
+{% endblock %}
